@@ -1,0 +1,47 @@
+	printf("Philosopher #%d\nttl = %lld\ttte = %lld\ttts = %lld\tleft fork %p\tright fork %p\n",
+		   ph.ph_id, ph.ttl, ph.tte, ph.tts, ph.left_fork, ph.right_fork);
+
+
+
+
+
+
+
+
+		   // void	lstadd_front(t_elem **lst, t_elem *new)
+// {
+// 	if (!new)
+// 		return ;
+// 	if (!*lst)
+// 	{
+// 		new->prev = NULL;
+// 		new->next = NULL;
+// 		*lst = new;
+// 	}
+// 	else
+// 	{
+// 		new->next = *lst;
+// 		*lst = new;
+// 		(*lst)->next->prev = (*lst);
+// 	}
+// }
+
+
+// void	lstdel(t_elem **head)
+// {
+// 	if (*head)
+// 	{
+// 		if ((*head)->next)
+// 			lstdel(&((*head)->next));
+// 		free (*head);
+// 		(*head) = NULL;
+// 	}
+// }
+
+
+
+
+
+
+
+
